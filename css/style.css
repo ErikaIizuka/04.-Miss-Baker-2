@@ -1,0 +1,73 @@
+html
+{
+    font-size: 10px;
+    font-family: 'Aleo', serif;
+    background-color: rgb(0, 52, 100);
+}
+
+body
+{
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(245, 213, 169);
+    padding: 40px;
+}
+
+h1
+{
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+
+h2
+{
+    font-size: 30px;
+    text-shadow: 2px 2px 1px ivory;
+}
+
+p
+{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+p::first-letter 
+{
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    line-height: 1.5;
+    padding: 50px 0;
+}
+
+div
+{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+figure
+{
+    font-size: 15px;
+    text-align: center;
+}
+
+img
+{
+    padding:5px;
+    border:3px solid #021a40;
+}
+
+a:hover, a:active, a:focus 
+{
+  color: darkred;
+  text-decoration: none;
+}
